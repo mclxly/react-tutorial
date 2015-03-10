@@ -4,14 +4,38 @@
     <title>Hello React</title>
     <!-- Not present in the tutorial. Just for basic styling. -->
     <link rel="stylesheet" href="css/base.css" />
-    <script src="libs/react.min.js"></script>
+    <script src="libs/react.js"></script>
+    <script src="libs/react-with-addons.js"></script>
     <script src="libs/JSXTransformer.js"></script>
     <script src="libs/jquery.min.js"></script>
     <script src="libs/showdown.min.js"></script>
+    <script src="libs/underscore.js"></script>
+    <script src="libs/d3.js"></script>
+    <style type="text/css">
+.example-leave {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+}
+
+.example-enter {
+  opacity: 0.01;
+  transition: opacity .5s ease-in;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+}
+    </style>
   </head>
   <body>
     <div id="content"></div>
     <div id="example"></div>
-    <script type="text/jsx;harmony=true" src="scripts/guides.js"></script>
+    <!-- <script type="text/jsx;harmony=true" src="scripts/add-ons.js"></script> -->
+    <!-- <script type="text/jsx;harmony=true" src="scripts/d3-demo.js"></script> -->
+    <script type="text/jsx;harmony=true" src="scripts/material-ui.js"></script>
   </body>
 </html>

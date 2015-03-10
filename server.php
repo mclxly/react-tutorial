@@ -4,7 +4,7 @@ $scriptInvokedFromCli =
 
 if($scriptInvokedFromCli) {
     echo 'starting server on port 3000' . PHP_EOL;
-    exec('php -S localhost:3000 -t public server.php');
+    exec('php -S 0.0.0.0:3000 -t public server.php');
 } else {
     return routeRequest();
 }
