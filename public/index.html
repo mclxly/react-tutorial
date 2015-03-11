@@ -3,7 +3,7 @@
   <head>
     <title>Hello React</title>
     <!-- Not present in the tutorial. Just for basic styling. -->
-    <link rel="stylesheet" href="css/base.css" />
+    <!-- <link rel="stylesheet" href="css/base.css" /> -->
     <script src="libs/react.js"></script>
     <script src="libs/react-with-addons.js"></script>
     <script src="libs/JSXTransformer.js"></script>
@@ -11,6 +11,8 @@
     <script src="libs/showdown.min.js"></script>
     <script src="libs/underscore.js"></script>
     <script src="libs/d3.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/material-ui.css">
     <style type="text/css">
 .example-leave {
   opacity: 1;
@@ -31,11 +33,33 @@
 }
     </style>
   </head>
-  <body>
+  <body style="padding: 30px;">
     <div id="content"></div>
     <div id="example"></div>
+    <div id="d3-components">
+      <div id="barChart"></div>
+      <div id="scatterplot"></div>
+    </div>
+    
     <!-- <script type="text/jsx;harmony=true" src="scripts/add-ons.js"></script> -->
-    <!-- <script type="text/jsx;harmony=true" src="scripts/d3-demo.js"></script> -->
-    <script type="text/jsx;harmony=true" src="scripts/material-ui.js"></script>
+    <!-- <script type="text/jsx;harmony=true" src="scripts/d3-demo.js"></script> 
+    <script type="text/jsx;harmony=true" src="scripts/test.js"></script>
+    -->
+    <script>
+    // var WebFontConfig = {
+    //   google: { families: [ 'Roboto:400,300,500:latin' ] }
+    // };
+    // (function() {
+    //   var wf = document.createElement('script');
+    //   wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+    //   '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    //   wf.type = 'text/javascript';
+    //   wf.async = 'true';
+    //   var s = document.getElementsByTagName('script')[0];
+    //   s.parentNode.insertBefore(wf, s);
+    // })();
+  </script>
+    <script type="text/jsx;harmony=true" src="libs/react-d3-components.js"></script> 
+    <script type="text/jsx;harmony=true" src="scripts/demo-react-d3-components.js"></script>    
   </body>
 </html>

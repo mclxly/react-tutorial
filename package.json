@@ -6,9 +6,13 @@
   "dependencies": {
     "body-parser": "^1.4.3",
     "express": "^4.4.5",
-    "material-ui": "^0.7.1"
+    "material-ui": "^0.7.1",
+    "react-d3-components": "^0.3.6"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "reactify": "^1.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
