@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans'), url("../../fonts/NotoSans/NotoSansCJKsc-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans Black';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans Black'), url("../../fonts/NotoSans/NotoSansCJKsc-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans Medium';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans Medium'), url("../../fonts/NotoSans/NotoSansCJKsc-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans Bold';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans Bold'), url("../../fonts/NotoSans/NotoSansCJKsc-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans DemiLight';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans DemiLight'), url("../../fonts/NotoSans/NotoSansCJKsc-DemiLight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans Light';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans Light'), url("../../fonts/NotoSans/NotoSansCJKsc-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans Thin';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans Thin'), url("../../fonts/NotoSans/NotoSansCJKsc-Thin.otf") format("opentype");
+}
+
+.ctext-notos-regular {
+  font-family: 'Noto Sans';
+}
+
+.ctext-notos-black {
+  font-family: 'Noto Sans Black';
+}
+
+.ctext-notos-medium {
+  font-family: 'Noto Sans Medium';
+}
+
+.ctext-notos-bold {
+  font-family: 'Noto Sans Bold';
+}
+
+.ctext-notos-demiLight {
+  font-family: 'Noto Sans DemiLight';
+}
+
+.ctext-notos-light {
+  font-family: 'Noto Sans Light';
+}
+
+.ctext-notos-thin {
+  font-family: 'Noto Sans Thin';
+}
+
+
