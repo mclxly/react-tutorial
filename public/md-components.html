@@ -11,25 +11,13 @@ http://www.syncano.com/getting-started-reactjs-tutorial/
     <link href='http://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
   </head>
   <body>
+
+    <div id="app"></div>
     <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="//cdn.jsdelivr.net/velocity/1.2.2/velocity.min.js"></script>
     <script src="//cdn.jsdelivr.net/velocity/1.2.2/velocity.ui.min.js"></script>
     <!-- The core React library -->
-    <script src="libs/react-0.13.1.js"></script>
-    <!-- In-browser JSX transformer, remove when pre-compiling JSX. -->
-    <script src="libs/JSXTransformer-0.13.1.js"></script>
-    <script type="text/jsx">
-      /** @jsx React.DOM */
-      var App = React.createClass({
-        render: function() {
-          return (
-            <div className="main-wrapper">
-              <div className="btn">点击</div>
-            </div>
-          );
-        }
-      });
-      React.render(<App />,  document.body);
-    </script> 
+    <script src="libs/react-0.13.2.js"></script>    
+    <script src="build/md-test.js"></script>
   </body>
 </html>

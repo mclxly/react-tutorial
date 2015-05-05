@@ -1,0 +1,217 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'react-tools' ]
+2 info using npm@2.6.1
+3 info using node@v0.12.0
+4 silly cache add args [ 'react-tools', null ]
+5 verbose cache add spec react-tools
+6 silly cache add parsed spec { raw: 'react-tools',
+6 silly cache add   scope: null,
+6 silly cache add   name: 'react-tools',
+6 silly cache add   rawSpec: '',
+6 silly cache add   spec: '*',
+6 silly cache add   type: 'range' }
+7 verbose addNamed react-tools@*
+8 silly addNamed semver.valid null
+9 silly addNamed semver.validRange *
+10 silly addNameRange { name: 'react-tools', range: '*', hasData: false }
+11 silly mapToRegistry name react-tools
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/react-tools
+15 verbose addNameRange registry:https://registry.npmjs.org/react-tools not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/react-tools
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 13:46:30
+19 verbose request id 3671629d9e725af7
+20 verbose etag "6UFHONLWTNAFOBC8XTXWCCQGG"
+21 http request GET https://registry.npmjs.org/react-tools
+22 http 304 https://registry.npmjs.org/react-tools
+23 silly get cb [ 304,
+23 silly get   { date: 'Tue, 21 Apr 2015 05:45:12 GMT',
+23 silly get     server: 'Apache',
+23 silly get     via: '1.1 varnish',
+23 silly get     'last-modified': 'Tue, 21 Apr 2015 05:45:12 GMT',
+23 silly get     'cache-control': 'max-age=60',
+23 silly get     etag: '"6UFHONLWTNAFOBC8XTXWCCQGG"',
+23 silly get     age: '24',
+23 silly get     'x-served-by': 'cache-nrt6123-NRT',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1429595112.702697,VS0,VE1',
+23 silly get     vary: 'Accept',
+23 silly get     'content-length': '0',
+23 silly get     'keep-alive': 'timeout=10, max=50',
+23 silly get     connection: 'Keep-Alive' } ]
+24 verbose etag https://registry.npmjs.org/react-tools from cache
+25 verbose get saving react-tools to /home/colin.lin/.npm/registry.npmjs.org/react-tools/.cache.json
+26 silly addNameRange number 2 { name: 'react-tools', range: '*', hasData: true }
+27 silly addNameRange versions [ 'react-tools',
+27 silly addNameRange   [ '0.3.0',
+27 silly addNameRange     '0.3.1',
+27 silly addNameRange     '0.3.2',
+27 silly addNameRange     '0.3.3',
+27 silly addNameRange     '0.4.0',
+27 silly addNameRange     '0.4.1',
+27 silly addNameRange     '0.5.0',
+27 silly addNameRange     '0.5.1',
+27 silly addNameRange     '0.4.2',
+27 silly addNameRange     '0.5.2',
+27 silly addNameRange     '0.8.0',
+27 silly addNameRange     '0.9.0-rc1',
+27 silly addNameRange     '0.9.0',
+27 silly addNameRange     '0.10.0-rc1',
+27 silly addNameRange     '0.10.0',
+27 silly addNameRange     '0.11.0-rc1',
+27 silly addNameRange     '0.11.0',
+27 silly addNameRange     '0.11.1',
+27 silly addNameRange     '0.11.2',
+27 silly addNameRange     '0.12.0-rc1',
+27 silly addNameRange     '0.12.0',
+27 silly addNameRange     '0.12.1',
+27 silly addNameRange     '0.12.2',
+27 silly addNameRange     '0.13.0-alpha.1',
+27 silly addNameRange     '0.13.0-alpha.2',
+27 silly addNameRange     '0.13.0-beta.1',
+27 silly addNameRange     '0.13.0-beta.2',
+27 silly addNameRange     '0.13.0-rc1',
+27 silly addNameRange     '0.13.0-rc2',
+27 silly addNameRange     '0.13.0',
+27 silly addNameRange     '0.13.1',
+27 silly addNameRange     '0.13.2' ] ]
+28 verbose addNamed react-tools@0.13.2
+29 silly addNamed semver.valid 0.13.2
+30 silly addNamed semver.validRange 0.13.2
+31 silly cache afterAdd react-tools@0.13.2
+32 verbose afterAdd /home/colin.lin/.npm/react-tools/0.13.2/package/package.json not in flight; writing
+33 verbose afterAdd /home/colin.lin/.npm/react-tools/0.13.2/package/package.json written
+34 silly install resolved [ { name: 'react-tools',
+34 silly install resolved     description: 'A set of complementary tools to React, including the JSX transformer.',
+34 silly install resolved     version: '0.13.2',
+34 silly install resolved     keywords: [ 'react', 'jsx', 'transformer', 'view' ],
+34 silly install resolved     homepage: 'http://facebook.github.io/react',
+34 silly install resolved     bugs: { url: 'https://github.com/facebook/react/issues' },
+34 silly install resolved     license: 'BSD-3-Clause',
+34 silly install resolved     files:
+34 silly install resolved      [ 'main.js',
+34 silly install resolved        'bin/jsx',
+34 silly install resolved        'src/',
+34 silly install resolved        'vendor/fbtransform/',
+34 silly install resolved        'vendor/inline-source-map.js' ],
+34 silly install resolved     main: 'main.js',
+34 silly install resolved     bin: { jsx: './bin/jsx' },
+34 silly install resolved     repository: { type: 'git', url: 'https://github.com/facebook/react' },
+34 silly install resolved     dependencies: { commoner: '^0.10.0', jstransform: '^10.1.0' },
+34 silly install resolved     devDependencies:
+34 silly install resolved      { benchmark: '~1.0.0',
+34 silly install resolved        browserify: '^9.0.3',
+34 silly install resolved        'bundle-collapser': '^1.1.1',
+34 silly install resolved        'coffee-script': '^1.8.0',
+34 silly install resolved        coverify: '~1.0.4',
+34 silly install resolved        derequire: '^2.0.0',
+34 silly install resolved        envify: '^3.0.0',
+34 silly install resolved        es3ify: '~0.1.2',
+34 silly install resolved        'es5-shim': '^4.0.0',
+34 silly install resolved        eslint: '^0.14.1',
+34 silly install resolved        'esprima-fb': '^13001.1001.0-dev-harmony-fb',
+34 silly install resolved        grunt: '~0.4.2',
+34 silly install resolved        'grunt-cli': '~0.1.9',
+34 silly install resolved        'grunt-compare-size': '~0.4.0',
+34 silly install resolved        'grunt-contrib-clean': '^0.6.0',
+34 silly install resolved        'grunt-contrib-compress': '^0.13.0',
+34 silly install resolved        'grunt-contrib-connect': '~0.6.0',
+34 silly install resolved        'grunt-contrib-jshint': '^0.10.0',
+34 silly install resolved        'grunt-jest': '^0.1.2',
+34 silly install resolved        'gzip-js': '~0.3.2',
+34 silly install resolved        'jasmine-tapreporter': '~0.2.2',
+34 silly install resolved        'jest-cli': '^0.2.1',
+34 silly install resolved        optimist: '~0.6.0',
+34 silly install resolved        phantomjs: '~1.9',
+34 silly install resolved        platform: '^1.1.0',
+34 silly install resolved        populist: '~0.1.6',
+34 silly install resolved        recast: '^0.9.11',
+34 silly install resolved        'sauce-tunnel': '~1.1.0',
+34 silly install resolved        tmp: '~0.0.18',
+34 silly install resolved        typescript: '^1.4.0',
+34 silly install resolved        'uglify-js': '^2.4.20',
+34 silly install resolved        uglifyify: '^3.0.1',
+34 silly install resolved        wd: '~0.2.6' },
+34 silly install resolved     engines: { node: '>=0.10.0' },
+34 silly install resolved     preferGlobal: true,
+34 silly install resolved     commonerConfig: { version: 4 },
+34 silly install resolved     scripts:
+34 silly install resolved      { test: 'jest',
+34 silly install resolved        jest: 'jest',
+34 silly install resolved        lint: 'eslint src',
+34 silly install resolved        build: 'grunt build' },
+34 silly install resolved     jest:
+34 silly install resolved      { rootDir: '',
+34 silly install resolved        scriptPreprocessor: 'jest/preprocessor.js',
+34 silly install resolved        setupEnvScriptFile: 'jest/environment.js',
+34 silly install resolved        persistModuleRegistryBetweenSpecs: true,
+34 silly install resolved        testFileExtensions: [Object],
+34 silly install resolved        modulePathIgnorePatterns: [Object],
+34 silly install resolved        testPathIgnorePatterns: [Object],
+34 silly install resolved        unmockedModulePathPatterns: [Object] },
+34 silly install resolved     _id: 'react-tools@0.13.2',
+34 silly install resolved     _shasum: 'f96613c59576a7b04597b307bb8cd5b647c9ebbf',
+34 silly install resolved     _resolved: 'https://registry.npmjs.org/react-tools/-/react-tools-0.13.2.tgz',
+34 silly install resolved     _from: 'react-tools@*',
+34 silly install resolved     _npmVersion: '2.7.3',
+34 silly install resolved     _nodeVersion: '0.10.38',
+34 silly install resolved     _npmUser: { name: 'zpao', email: 'paul@oshannessy.com' },
+34 silly install resolved     maintainers: [ [Object], [Object] ],
+34 silly install resolved     dist:
+34 silly install resolved      { shasum: 'f96613c59576a7b04597b307bb8cd5b647c9ebbf',
+34 silly install resolved        tarball: 'http://registry.npmjs.org/react-tools/-/react-tools-0.13.2.tgz' },
+34 silly install resolved     directories: {},
+34 silly install resolved     readme: 'ERROR: No README data found!' } ]
+35 info install react-tools@0.13.2 into /usr/local/lib
+36 info installOne react-tools@0.13.2
+37 verbose installOne of react-tools to /usr/local/lib not in flight; installing
+38 verbose lock using /home/colin.lin/.npm/_locks/react-tools-548e65591a6e6311.lock for /usr/local/lib/node_modules/react-tools
+39 silly install write writing react-tools 0.13.2 to /usr/local/lib/node_modules/react-tools
+40 silly cache addNamed cb react-tools@0.13.2
+41 verbose unbuild lib/node_modules/react-tools
+42 info preuninstall react-tools@0.12.2
+43 info uninstall react-tools@0.12.2
+44 verbose unbuild rmStuff react-tools@0.12.2 from /usr/local/lib/node_modules
+45 verbose gentlyRm verifying that /usr/local is managed by npm
+46 silly isManaged /usr/local is not inside /usr/local/lib/node_modules
+47 silly isManaged /usr/local is not inside /usr/local/lib/node_modules
+48 silly isManaged /usr/local/bin is inside /usr/local
+49 silly gentlyRm /usr/local is managed by npm
+50 silly gentlyRm /usr/local/bin/jsx is under /usr/local
+51 verbose gentlyRm vacuuming /usr/local/bin/jsx up to /usr/local
+52 silly gentlyRm removing /usr/local/bin/jsx
+53 verbose unlock done using /home/colin.lin/.npm/_locks/react-tools-548e65591a6e6311.lock for /usr/local/lib/node_modules/react-tools
+54 verbose stack Error: EACCES, unlink '/usr/local/bin/jsx'
+54 verbose stack     at Error (native)
+55 verbose cwd /var/www/html/colin/github/react-tutorial
+56 error Linux 2.6.32-504.3.3.el6.x86_64
+57 error argv "node" "/usr/local/bin/npm" "install" "-g" "react-tools"
+58 error node v0.12.0
+59 error npm  v2.6.1
+60 error path /usr/local/bin/jsx
+61 error code EACCES
+62 error errno -13
+63 error Error: EACCES, unlink '/usr/local/bin/jsx'
+63 error     at Error (native)
+63 error  { [Error: EACCES, unlink '/usr/local/bin/jsx'] errno: -13, code: 'EACCES', path: '/usr/local/bin/jsx' }
+64 error Please try running this command again as root/Administrator.
+65 verbose exit [ -13, true ]
+66 verbose unbuild lib/node_modules/react-tools
+67 info preuninstall react-tools@0.12.2
+68 info uninstall react-tools@0.12.2
+69 verbose unbuild rmStuff react-tools@0.12.2 from /usr/local/lib/node_modules
+70 verbose gentlyRm verifying that /usr/local is managed by npm
+71 silly isManaged /usr/local is not inside /usr/local/lib/node_modules
+72 silly isManaged /usr/local is not inside /usr/local/lib/node_modules
+73 silly isManaged /usr/local is not inside /usr/local/bin
+74 silly isManaged /usr/local is inside /usr/local
+75 silly gentlyRm /usr/local is managed by npm
+76 silly gentlyRm /usr/local/bin/jsx is under /usr/local
+77 verbose gentlyRm vacuuming /usr/local/bin/jsx up to /usr/local
+78 silly gentlyRm removing /usr/local/bin/jsx
+79 error error rolling back Error: EACCES, unlink '/usr/local/bin/jsx'
+79 error error rolling back     at Error (native)
+79 error error rolling back  { [Error: EACCES, unlink '/usr/local/bin/jsx'] errno: -13, code: 'EACCES', path: '/usr/local/bin/jsx' }

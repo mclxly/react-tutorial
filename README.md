@@ -1,8 +1,19 @@
+
 # React Tutorial
 
-react v0.12.2 / d3.js / Material UI / Bootstrap
-
 This is the React comment box example from [the React tutorial](http://facebook.github.io/react/docs/tutorial.html).
+
+## 新特性
+  * react v0.12.2 / d3.js / Material UI / Bootstrap
+  * [react.js CDN](https://cdnjs.com/libraries/react)
+
+### 更新列表
+  * [2015-04-21]更新至react v0.13.2，并添加测试代码
+
+### 离线转换
+
+npm install -g react-tools
+jsx --watch src/ build/
 
 ## To use
 
